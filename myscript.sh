@@ -1,2 +1,7 @@
 #!/bin/bash
-echo "Hello World"
+
+apt-get update
+apt-get -y upgrade
+
+apt-get -y autoremove
+apt-get autoclean
