@@ -5,3 +5,6 @@ apt-get -y upgrade
 
 apt-get -y autoremove
 apt-get autoclean
+
+echo "completed"
+
